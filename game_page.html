@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math game</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="game_login.js"></script>
+</head>
+<body onload="gamestart()" style="background-color: rgb(0, 174, 255);">
+    <h3 id="lol1">
+        :0
+    </h3>
+    <h3 id="lol2">
+        :0
+    </h3>
+    <div class="container">
+        <center>
+            <h2 style="color: white;">Guess The Word!</h2>
+    
+    
+            <br>
+            <h2 id="que"><b>OUESTION TURN -</b></h2>
+            <h2 id="anss"><b>ANSWER TURN -</b></h2>
+            <br>
+            <div id="output">
+            </div>    
+            <br>
+            <input id="q1" class="form-control" placeholder="Number 1">
+            <br>
+            <input id="q2" class="form-control" placeholder="Number 2">
+            <br><br>
+            <button onclick="send()" class="btn btn-primary" style="width: 190px;" >Send</button>
+        </center>
+    </div>
+    
+    <script src="game_page.js"></script>
+    </body>
